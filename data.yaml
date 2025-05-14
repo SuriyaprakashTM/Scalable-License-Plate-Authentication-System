@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Human', 'Seat belt', 'Without seat belt']
+
+roboflow:
+  workspace: cdp-dlm3v
+  project: seat-belt-detection-jf7b7
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cdp-dlm3v/seat-belt-detection-jf7b7/dataset/2

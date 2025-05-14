@@ -1,0 +1,17 @@
+names:
+- Hyundai Verna
+- Maruti Baleno
+- Maruti Eeco
+- Renault Duster
+- Tata Nano
+- Toyota Glanza
+nc: 6
+roboflow:
+  license: CC BY 4.0
+  project: car-features-pmivz
+  url: https://universe.roboflow.com/cdp-dlm3v/car-features-pmivz/dataset/3
+  version: 3
+  workspace: cdp-dlm3v
+test: ../test/images
+train: ../train/images
+val: ../valid/images
